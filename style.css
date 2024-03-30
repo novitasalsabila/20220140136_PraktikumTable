@@ -1,0 +1,55 @@
+/* Mengatur gaya untuk semua elemen */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(190, 172, 198);
+}
+/* Gaya untuk elemen dengan kelas "container" */
+.container{
+    max-width: 800px; /* Lebar maksimum 800px */
+    margin:50px auto; /* Margin atas dan bawah 50px, dan margin kiri-kanan otomatis */
+    background-color: white;
+    padding: 20px; /* Padding 20px di dalam elemen */
+    border-radius: 13px; /* Sudut bulat 13px */
+    box-shadow: 0 0 15px rgb(94, 93, 93); /* Efek bayangan */
+}
+/* Gaya untuk elemen h2 */
+h2{
+    text-align: center; /* Teks menjadi rata tengah */
+    font-size: 30px;
+    
+    
+}
+/* Gaya untuk tabel */
+table{
+    width: 100%;
+    border-collapse: collapse; /* Menggabungkan batas sel */
+}
+
+/* Gaya untuk header kolom */
+th{
+    background-color: #f2f2f2;
+    color: #333;
+}
+/* Gaya untuk baris di bagian isi tabel saat dihover */
+tbody tr:hover{
+    background-color: #120101;
+}
+/* Gaya untuk tabel, kolom, dan sel */
+table, th, td {
+    
+    border-style: double;
+    border-color: #a492a6;
+  }
+tfoot{
+    font-size: 20px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+/* Gaya untuk sel dengan atribut colspan */
+.td .colspan{
+    margin-left: 70px;
+}
